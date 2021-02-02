@@ -1,0 +1,181 @@
+html body {
+    background-color: snow;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 105px;
+    align-items: center;
+}
+.nav-item{
+    background-color: rgb(241, 245, 229);
+    margin: 1px;
+    font-size: 12px;
+}
+.nav-link {
+    color: rgb(78, 122, 52);
+}
+.nav-link:hover {
+    background-color: rgb(207, 245, 138);
+    color: rgb(31, 31, 1);
+    transition: 0.7;
+}
+
+.container-fluid {
+    background-image: url('/images/home_acceuil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: auto;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+}
+.btn-outline-success a{
+    text-decoration: none;
+    color: rgb(8, 245, 67); 
+}
+.btn-outline-success {
+    height: 40px;
+    width: 200px;
+    align-self: center;
+}
+
+.present {
+    display: grid;
+    gap: 20px;
+}
+footer {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(172, 173, 173);
+}
+footer div ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+footer div {
+    padding-top: 10px;
+}
+i {
+    font-size: 30px;
+    margin: 10px;
+}
+pre {
+    font-size: 12px;
+    color: rgb(133, 247, 3);
+}
+    
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+.img_menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+/* .img-fluid {
+    background-size: cover;
+    height: auto;
+    width: 100%;
+} */
+.carousel-caption h5, .carousel-caption p {
+    color: olivedrab;
+}
+.carousel-item {
+    height: 500px;
+    align-content: center;
+}
+h4 {
+    color: rgb(135, 192, 22);
+}
+.menu {
+    margin: 20px 20px;
+}
+.form {
+    margin: 40px 20px
+}
+.fa-envelope-square {
+    font-size: 18px;
+}
+.display-4 {
+    color: rgb(89, 179, 89);
+}
+.card {
+    width: 10rem;
+    box-sizing: border-box;
+}
+.row-text-center {
+    display: grid;
+    grid-auto-columns: auto auto auto;
+}
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media only screen and (min-width: 575px){
+    .logo{
+        height: 170px;
+        width: 170px;
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    .nav-item {
+        font-size: 14px;
+    }
+    .card {
+        width: 16rem;
+    }
+    
+}
+
+@media only screen and (min-width: 767.98px) {  
+    .nav-item {
+        font-size: 14px;
+    }
+    .menu {
+        margin: 40px 40px;
+    }
+    .card {
+        width: 20rem;
+    }
+    .section-pb-5 {
+        margin: 20px 20px;
+    }
+}
+
+
+@media only screen and (min-width: 991.98px) { 
+    .nav-item {
+        font-size: 16px;
+    }
+    .card {
+        width: 24rem;
+    }
+ }
+
+
+@media only screen and (min-width: 1199.98px) { 
+    .card {
+        width: 28rem;
+    }
+ }
