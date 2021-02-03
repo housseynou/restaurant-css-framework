@@ -32,7 +32,13 @@ header {
     height: 450px;
     width: auto;
     margin-bottom: 50px;
+    
+}
+.container-fluid .row {
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    
     justify-content: center;
 }
 .btn-outline-success a{
@@ -69,6 +75,7 @@ i {
 pre {
     font-size: 12px;
     color: rgb(133, 247, 3);
+    
 }
     
 .container {
@@ -88,12 +95,20 @@ pre {
     height: auto;
     width: 100%;
 } */
+.carousel-inner {
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    align-content: center;
+    
+}
 .carousel-caption h5, .carousel-caption p {
     color: olivedrab;
 }
-.carousel-item {
-    height: 500px;
-    align-content: center;
+.carousel-item img {
+    align-self: center;
+    max-height: 100%;
+    max-width: 100%
 }
 h4 {
     color: rgb(135, 192, 22);
@@ -131,6 +146,22 @@ h4 {
     width:100%;
     position:absolute;
 }
+.ville {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    margin: 40px auto 40px;
+    gap: 20px;
+}
+.ville .row {
+    margin: auto;
+}
+.section-pb-5 {
+    position: relative;
+    top: 40px;
+}
+
 
 @media only screen and (min-width: 575px){
     .logo{
@@ -145,7 +176,10 @@ h4 {
     .card {
         width: 16rem;
     }
-    
+    .carousel-inner {
+        width: 500px;
+        height: 600px;
+    }
 }
 
 @media only screen and (min-width: 767.98px) {  
@@ -161,6 +195,10 @@ h4 {
     .section-pb-5 {
         margin: 20px 20px;
     }
+    .carousel-inner {
+        width: 600px;
+        height: 700px;
+    }
 }
 
 
@@ -171,11 +209,19 @@ h4 {
     .card {
         width: 24rem;
     }
+    .carousel-inner {
+        width: 700px;
+        height: 800px;
+    }
  }
 
 
 @media only screen and (min-width: 1199.98px) { 
     .card {
         width: 28rem;
+    }
+    .carousel-inner {
+        width: 600px;
+        height: 700px;
     }
  }
