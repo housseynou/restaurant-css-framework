@@ -2,7 +2,7 @@
 
 Home Made Restaurant est une chaine de restaurant qui offre à sa clientèle une alimentation saine, avec des produits frais et locals, et un service spécial pour chaque client et où qu'il(elle) soit. 
 
-![La Marque du Resto](/Users/housseynou/restaurant-css-framework/images/logo.png)
+![La Marque du Resto](images/logo.png)
 
 ## Description du concept
 
@@ -17,13 +17,13 @@ Le site a été réalisé avec bootstrap. Mais j'ai dû faire appel à mes maigr
 > * Les images proviennent de [unsplash](https://unsplash.com/)
 > * Le logo a été fait avec **Gimp**
 
-![un petit aperçu du site](/Users/housseynou/restaurant-css-framework/images/captur1.png)
+![un petit aperçu du site](images/captur1.png)
 
 *Si ce petit apperçu ne vous met pas l'eau à la bouche et ne vous donne pas envi d'aller découvrir le site et d'aller vite commander un plat, cest juste parce que vous n'avez pas faim.* 
 
 *Voici un autre* 
 
-![un autre apperçu](/Users/housseynou/restaurant-css-framework/images/captur2.png)
+![un autre apperçu](images/captur2.png)
 
 
 
