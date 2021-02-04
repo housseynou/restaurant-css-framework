@@ -26,7 +26,7 @@ header {
 }
 
 .container-fluid {
-    background-image: url('images/home_acceuil.jpg');
+    background-image: url('/images/home_acceuil.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
